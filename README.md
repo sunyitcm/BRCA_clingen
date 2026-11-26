@@ -21,8 +21,6 @@ Windows PowerShell：`py -3 start.py`；已激活 Miniforge 的三个平台均�
 
 ## 2. 明确组装与核酸等位
 
-**在线查询提示（2026-11-26 04:01:14 UTC）**　本次从 Mac 请求 Ensembl GRCh37 VEP 的[公开测试位点](https://grch37.rest.ensembl.org/vep/human/hgvs/NC_000017.10:g.7577107A%3ET)，收到 HTTP 500 和 HTML 错误页。当前建议优先使用已核实的 **GRCh38 输入**。手头只有 GRCh37 坐标时，请保留原始组装，核实同一等位的 GRCh38 坐标与 REF 后再查询。
-
 先选 BRCA1（chr17）或 BRCA2（chr13），再选原始组装。优先输入 **chr-POS-REF-ALT** 或单行 VCF；也支持带版本的 HGVS c.。每次一个 ALT。以下三种写法是同一公开教学等位：
 
 | GRCh38 | GRCh37 | 规范转录本 |

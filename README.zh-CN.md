@@ -26,3 +26,5 @@ BRCA Review Desk 0.2.0rc8 固定使用 [BRCA1 GN092 v1.2](https://cspec.genome.n
 本机只需 Python 标准库，不需 Perl、Docker、VEP cache 或 API key。主动查询时会向相应公共服务发送该核酸等位；只试读离线教学不必联网。界面以中文为主。
 
 [脚本、REST 和 curl 示例](METHODS_API_ZH.md) · [解读员手册](docs/Reviewer_Guide_ZH.md) · [临床 LR 与文献](docs/BRCA_Literature_and_Clinical_LR_ZH.md) · [验收与复现](docs/Acceptance_ZH.md) · [第三方来源与许可说明](SOURCE_TERMS.md)。本项目并非 ClinGen 或 ENIGMA 官方软件。
+
+[API 与数据使用说明](docs/API_SOURCE_TERMS.md)。GRCh37 服务失败时请保留原组装；如需改查 GRCh38，先核准是同一核酸等位，并核对目标组装坐标和 REF/ALT。

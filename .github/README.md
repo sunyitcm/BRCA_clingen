@@ -15,3 +15,5 @@
 **例 / Example:** `NM_000059.4:c.9217G>T` → BRCA2 p.Asp3073Tyr. 核对一个位点时，可以同时查看 VEP 的蛋白后果、gnomAD 的人群数据、功能实验原表和匹配的[专家个案 / expert curation](https://erepo.clinicalgenome.org/evrepo/ui/classification/237f2389-fa0c-4474-9f7a-50a8f9a3542d)。已发布的专家断言与本机勾选的证据分开显示。A missing response is not evidence that the allele is absent from a population.
 
 **版本 / Version:** BRCA Review Desk 0.2.0rc8 uses the frozen ClinGen ENIGMA specifications [BRCA1 GN092 v1.2](https://cspec.genome.network/cspec/ui/svi/doc/GN092?version=1.2) and [BRCA2 GN097 v1.2](https://cspec.genome.network/cspec/ui/svi/doc/GN097?version=1.2). Live source versions may differ from the teaching snapshots. [版本说明 / Release notes](../RELEASE_NOTES.md) · [来源与使用条件 / Source terms](../SOURCE_TERMS.md)。
+
+[API 与数据使用说明 / API and data use](../docs/API_SOURCE_TERMS.md)
