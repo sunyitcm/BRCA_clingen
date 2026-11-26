@@ -1,0 +1,8 @@
+{
+  "engine": "0.2.1rc1",
+  "distribution": "0.1.1rc2",
+  "files": {
+    "rules/bundle.json": "37140e4b0ab320a88ee91023d5b27eb38958733e75a8c403c65316cf7ce683ab",
+    "rules/review-20261124.json": "16be24492c15e3c337734c6b90997650e054ae9eca6cae04a38f8b337dbba419"
+  }
+}

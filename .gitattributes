@@ -1,0 +1,3 @@
+# Consistent release bytes, including Windows checkouts.
+* text=auto eol=lf
+*.gz binary

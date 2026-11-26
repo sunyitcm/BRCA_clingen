@@ -1,0 +1,22 @@
+{
+  "BRCA1": {
+    "spec": "GN092@1.2",
+    "source_sha256": "290c0f25cd367fe68d2b854a77f2ec9b5bc0a190da907adf995b4f3a51415534",
+    "field": "092_PM3_nuclear_BRCA1.instructionsToUse",
+    "source_text": "not meeting a benign population evidence code",
+    "excludes_if_met": [
+      "BA1",
+      "BS1"
+    ]
+  },
+  "BRCA2": {
+    "spec": "GN097@1.2",
+    "source_sha256": "693ffda43eb128b13677bbba9084cc969fab6b09eb6ae05fb2c6867d9dddddea",
+    "field": "097_PM3_nuclear_BRCA2.instructionsToUse",
+    "source_text": "not meeting a benign population evidence code",
+    "excludes_if_met": [
+      "BA1",
+      "BS1"
+    ]
+  }
+}

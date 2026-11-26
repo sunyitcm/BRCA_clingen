@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BRCA1": "GN092@1.2",
+    "BRCA2": "GN097@1.2"
+  },
+  "row_index_utf8_sha256": "b4d7b7296426cd9a883473f5bd0cdc461dd022e09e72d5c82b79d8aa20e7f3c0",
+  "files": {
+    "rules/attachments.lock.json": "30c5aed044a425d81a63b097bb5098cf98061d9aa9c325a4b67dded4d75e5f84",
+    "rules/catalog.json": "afe198f6d5922bb5b13e4eccc4f4d42bbd46dacc47804c0c56ca542fb2928986"
+  }
+}

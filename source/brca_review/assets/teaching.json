@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "demo-public-rc8-brca1-37",
+    "utc": null,
+    "report": {
+      "status": "review_required",
+      "engine": "0.2.1rc1",
+      "gene": "BRCA1",
+      "caid": "CA001182",
+      "condition": "MONDO:0700268",
+      "inheritance": "AD",
+      "domain": "germline cancer predisposition",
+      "specification": "GN092 v1.2",
+      "rules_bundle_sha256": "37140e4b0ab320a88ee91023d5b27eb38958733e75a8c403c65316cf7ce683ab",
+      "generated_utc": null,
+      "met": [],
+      "not_met": [],
+      "points_accepted": null,
+      "classification_draft": null,
+      "not_evaluated": [
+        "PS1",
+        "PM3",
+        "BS3",
+        "PP4",
+        "BP5",
+        "BS4",
+        "PP1",
+        "BS1",
+        "BP7",
+        "BA1",
+        "BP1",
+        "PS4",
+        "BP4",
+        "PS3",
+        "PP3",
+        "PM5",
+        "PVS1",
+        "BS2",
+        "PM2"
+      ],
+      "not_applicable_by_spec": [
+        "BP2",
+        "BP6",
+        "PP5",
+        "PM4",
+        "PS2",
+        "BP3",
+        "PM1",
+        "PM6",
+        "PP2"
+      ],
+      "representations": {
+        "GRCh37": [
+          "NC_000017.10:g.41258504A>C"
+        ],
+        "GRCh38": [
+          "NC_000017.11:g.43106487A>C"
+        ]
+      },
+      "schema": "brca.teaching.extract.v1",
+      "is_training": true,
+      "review_desk_version": "0.2.0rc2",
+      "selected_gene": "BRCA1",
+      "input": {
+        "original": "chr17-41258504-A-C",
+        "assembly": "GRCh37",
+        "kind": "vcf",
+        "chrom": "17",
+        "pos": 41258504,
+        "ref": "A",
+        "alt": "C",
+        "hgvs": "NC_000017.10:g.41258504A>C",
+        "interbase": [
+          41258503,
+          41258504,
+          "A",
+          "C"
+        ]
+      },
+      "facts": {
+        "transcript": {
+          "gene_symbol": "BRCA1",
+          "transcript_id": "NM_007294.4",
+          "hgvsc": "NM_007294.4:c.181T>G",
+          "hgvsp": "NP_009225.1:p.Cys61Gly",
+          "exon": "4/23",
+          "consequence_terms": [
+            "missense_variant"
+          ],
+          "protein_start": 61
+        },
+        "event": "SNV",
+        "ldh_brca": {
+          "linked_allele": "NC_000017.11:g.43106487A>C",
+          "version_source": {
+            "releaseDate": "2026-01-05T00:00:00",
+            "releaseId": 75,
+            "releaseIri": "https://brcaexchange.org/backend/data/releases/?release_id=75",
+            "releaseName": 69
+          },
+          "BayesDel_nsfp33a_noAF": "0.57"
+        },
+        "ldh_exome": {
+          "AC": 25,
+          "AN": 1452604,
+          "AF": 1.721047167707097e-05,
+          "source": {
+            "id": "gnomAD4.1",
+            "type": "DataSet",
+            "label": "gnomAD v4.1",
+            "version": "4.1"
+          }
+        }
+      },
+      "source_status": {
+        "ldh_exome": "retrieved"
+      },
+      "expert_assertions": [],
+      "limitations": [
+        "公开教学摘录：没有内嵌完整病例或外站响应；旧版示例另存。"
+      ],
+      "candidates": [
+        {
+          "code": "PS3",
+          "strength": "Strong",
+          "score_counted": false,
+          "source": {
+            "gene": "BRCA1",
+            "table": "T9",
+            "sheet": "Table9_BRCA12VCEP_specs",
+            "row": 388,
+            "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8",
+            "hgvsc": "c.181T>G",
+            "hgvsp": "p.(Cys61Gly)",
+            "code": "PS3",
+            "strength": "Strong",
+            "pmids_mentioned": [
+              "30209399",
+              "32546644",
+              "32741062"
+            ],
+            "review_cells": "F388:N388",
+            "review_values": {
+              "H": "0.16"
+            },
+            "checked_assignment": {
+              "gene": "BRCA1",
+              "hgvsc": "c.181T>G",
+              "code": "PS3",
+              "strength": "Strong",
+              "cells": "D388:E388",
+              "workbook_sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+            }
+          }
+        }
+      ],
+      "erepo": {
+        "state": "not_queried_in_example",
+        "criteria": [],
+        "alerts": []
+      }
+    }
+  },
+  {
+    "id": "demo-public-rc8-brca1-38",
+    "utc": null,
+    "report": {
+      "status": "review_required",
+      "engine": "0.2.1rc1",
+      "gene": "BRCA1",
+      "caid": "CA001182",
+      "condition": "MONDO:0700268",
+      "inheritance": "AD",
+      "domain": "germline cancer predisposition",
+      "specification": "GN092 v1.2",
+      "rules_bundle_sha256": "37140e4b0ab320a88ee91023d5b27eb38958733e75a8c403c65316cf7ce683ab",
+      "generated_utc": null,
+      "met": [],
+      "not_met": [],
+      "points_accepted": null,
+      "classification_draft": null,
+      "not_evaluated": [
+        "PS1",
+        "PM3",
+        "BS3",
+        "PP4",
+        "BP5",
+        "BS4",
+        "PP1",
+        "BS1",
+        "BP7",
+        "BA1",
+        "BP1",
+        "PS4",
+        "BP4",
+        "PS3",
+        "PP3",
+        "PM5",
+        "PVS1",
+        "BS2",
+        "PM2"
+      ],
+      "not_applicable_by_spec": [
+        "BP2",
+        "BP6",
+        "PP5",
+        "PM4",
+        "PS2",
+        "BP3",
+        "PM1",
+        "PM6",
+        "PP2"
+      ],
+      "representations": {
+        "GRCh37": [
+          "NC_000017.10:g.41258504A>C"
+        ],
+        "GRCh38": [
+          "NC_000017.11:g.43106487A>C"
+        ]
+      },
+      "schema": "brca.teaching.extract.v1",
+      "is_training": true,
+      "review_desk_version": "0.2.0rc2",
+      "selected_gene": "BRCA1",
+      "input": {
+        "original": "chr17-43106487-A-C",
+        "assembly": "GRCh38",
+        "kind": "vcf",
+        "chrom": "17",
+        "pos": 43106487,
+        "ref": "A",
+        "alt": "C",
+        "hgvs": "NC_000017.11:g.43106487A>C",
+        "interbase": [
+          43106486,
+          43106487,
+          "A",
+          "C"
+        ]
+      },
+      "facts": {
+        "transcript": {
+          "gene_symbol": "BRCA1",
+          "transcript_id": "NM_007294.4",
+          "hgvsc": "NM_007294.4:c.181T>G",
+          "hgvsp": "NP_009225.1:p.Cys61Gly",
+          "exon": "4/23",
+          "consequence_terms": [
+            "missense_variant"
+          ],
+          "protein_start": 61
+        },
+        "event": "SNV",
+        "ldh_brca": {
+          "linked_allele": "NC_000017.11:g.43106487A>C",
+          "version_source": {
+            "releaseDate": "2026-01-05T00:00:00",
+            "releaseId": 75,
+            "releaseIri": "https://brcaexchange.org/backend/data/releases/?release_id=75",
+            "releaseName": 69
+          },
+          "BayesDel_nsfp33a_noAF": "0.57"
+        }
+      },
+      "source_status": {},
+      "expert_assertions": [],
+      "limitations": [
+        "公开教学摘录：没有内嵌完整病例或外站响应；旧版示例另存。"
+      ],
+      "candidates": [
+        {
+          "code": "PS3",
+          "strength": "Strong",
+          "score_counted": false,
+          "source": {
+            "gene": "BRCA1",
+            "table": "T9",
+            "sheet": "Table9_BRCA12VCEP_specs",
+            "row": 388,
+            "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8",
+            "hgvsc": "c.181T>G",
+            "hgvsp": "p.(Cys61Gly)",
+            "code": "PS3",
+            "strength": "Strong",
+            "pmids_mentioned": [
+              "30209399",
+              "32546644",
+              "32741062"
+            ],
+            "review_cells": "F388:N388",
+            "review_values": {
+              "H": "0.16"
+            },
+            "checked_assignment": {
+              "gene": "BRCA1",
+              "hgvsc": "c.181T>G",
+              "code": "PS3",
+              "strength": "Strong",
+              "cells": "D388:E388",
+              "workbook_sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+            }
+          }
+        }
+      ],
+      "erepo": {
+        "state": "not_queried_in_example",
+        "criteria": [],
+        "alerts": []
+      }
+    }
+  },
+  {
+    "id": "demo-public-rc8-brca1-benign-38",
+    "utc": null,
+    "report": {
+      "status": "review_required",
+      "engine": "0.2.1rc1",
+      "gene": "BRCA1",
+      "caid": "CA003905",
+      "condition": "MONDO:0700268",
+      "inheritance": "AD",
+      "domain": "germline cancer predisposition",
+      "specification": "GN092 v1.2",
+      "rules_bundle_sha256": "37140e4b0ab320a88ee91023d5b27eb38958733e75a8c403c65316cf7ce683ab",
+      "generated_utc": null,
+      "met": [],
+      "not_met": [],
+      "points_accepted": null,
+      "classification_draft": null,
+      "not_evaluated": [
+        "PS1",
+        "PM3",
+        "BS3",
+        "PP4",
+        "BP5",
+        "BS4",
+        "PP1",
+        "BS1",
+        "BP7",
+        "BA1",
+        "BP1",
+        "PS4",
+        "BP4",
+        "PS3",
+        "PP3",
+        "PM5",
+        "PVS1",
+        "BS2",
+        "PM2"
+      ],
+      "not_applicable_by_spec": [
+        "BP2",
+        "BP6",
+        "PP5",
+        "PM4",
+        "PS2",
+        "BP3",
+        "PM1",
+        "PM6",
+        "PP2"
+      ],
+      "representations": {
+        "GRCh37": [
+          "NC_000017.10:g.41246737C>T"
+        ],
+        "GRCh38": [
+          "NC_000017.11:g.43094720C>T"
+        ]
+      },
+      "schema": "brca.teaching.extract.v1",
+      "is_training": true,
+      "review_desk_version": "0.2.0rc2",
+      "selected_gene": "BRCA1",
+      "input": {
+        "original": "NM_007294.4:c.811G>A",
+        "assembly": "GRCh38",
+        "kind": "hgvsc",
+        "hgvs": "NM_007294.4:c.811G>A",
+        "gene": "BRCA1"
+      },
+      "facts": {
+        "transcript": {
+          "gene_symbol": "BRCA1",
+          "transcript_id": "NM_007294.4",
+          "hgvsc": "NM_007294.4:c.811G>A",
+          "hgvsp": "NP_009225.1:p.Val271Met",
+          "exon": "10/23",
+          "consequence_terms": [
+            "missense_variant"
+          ],
+          "protein_start": 271
+        },
+        "event": "SNV",
+        "ldh_brca": {
+          "linked_allele": "NC_000017.11:g.43094720C>T",
+          "version_source": {
+            "releaseDate": "2026-01-05T00:00:00",
+            "releaseId": 75,
+            "releaseIri": "https://brcaexchange.org/backend/data/releases/?release_id=75",
+            "releaseName": 69
+          },
+          "BayesDel_nsfp33a_noAF": "0.06"
+        },
+        "ldh_exome": {
+          "AC": 82,
+          "AN": 1459460,
+          "AF": 5.618516437586504e-05,
+          "source": {
+            "id": "gnomAD4.1",
+            "type": "DataSet",
+            "label": "gnomAD v4.1",
+            "version": "4.1"
+          }
+        }
+      },
+      "source_status": {
+        "ldh_exome": "retrieved"
+      },
+      "expert_assertions": [],
+      "limitations": [
+        "公开教学摘录：没有内嵌完整病例或外站响应；旧版示例另存。"
+      ],
+      "candidates": [
+        {
+          "code": "BS3",
+          "strength": "Strong",
+          "score_counted": false,
+          "source": {
+            "gene": "BRCA1",
+            "table": "T9",
+            "sheet": "Table9_BRCA12VCEP_specs",
+            "row": 4084,
+            "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8",
+            "hgvsc": "c.811G>A",
+            "hgvsp": "p.(Val271Met)",
+            "code": "BS3",
+            "strength": "Strong",
+            "pmids_mentioned": [
+              "32546644"
+            ],
+            "review_cells": "F4084:N4084",
+            "review_values": {
+              "H": "0.03"
+            },
+            "checked_assignment": {
+              "gene": "BRCA1",
+              "hgvsc": "c.811G>A",
+              "code": "BS3",
+              "strength": "Strong",
+              "cells": "D4084:E4084",
+              "workbook_sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+            }
+          }
+        }
+      ],
+      "erepo": {
+        "state": "matched",
+        "criteria": [
+          {
+            "code": "BS3",
+            "state": "Met",
+            "strength": "Strong",
+            "raw_code": "BS3",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘录：专家列为Met；详细原始依据请开官方个案。",
+                "pointer": "/evidenceLine/3/evidenceItem/0"
+              }
+            ],
+            "pointer": "/evidenceLine/3/evidenceItem/0",
+            "summary_field": "metCodes/0",
+            "pmids": [
+              "32546644"
+            ],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Strong",
+            "strength_origin": "criterion_default"
+          },
+          {
+            "code": "BP1",
+            "state": "Met",
+            "strength": "Strong",
+            "raw_code": "BP1_Strong",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘录：专家列为Met；详细原始依据请开官方个案。",
+                "pointer": "/evidenceLine/2/evidenceItem/0"
+              }
+            ],
+            "pointer": "/evidenceLine/2/evidenceItem/0",
+            "summary_field": "metCodes/1",
+            "pmids": [],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Strong",
+            "strength_origin": "summary_suffix"
+          },
+          {
+            "code": "BA1",
+            "state": "Met",
+            "strength": "Stand Alone",
+            "raw_code": "BA1",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘录：专家列为Met；详细原始依据请开官方个案。",
+                "pointer": "/evidenceLine/1/evidenceItem/0"
+              }
+            ],
+            "pointer": "/evidenceLine/1/evidenceItem/0",
+            "summary_field": "metCodes/2",
+            "pmids": [],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Stand Alone",
+            "strength_origin": "criterion_default"
+          },
+          {
+            "code": "BS2",
+            "state": "Not Met",
+            "strength": "Strong",
+            "raw_code": "BS2",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘录：专家列为Not Met；详细原始依据请开官方个案。",
+                "pointer": "/evidenceLine/0/evidenceItem/0"
+              }
+            ],
+            "pointer": "/evidenceLine/0/evidenceItem/0",
+            "summary_field": "unMetCodes/0",
+            "pmids": [
+              "16267036"
+            ],
+            "issues": [],
+            "detail_state": "Not Met",
+            "detail_strength": null,
+            "criterion_strength": "Strong",
+            "strength_origin": "criterion_default"
+          }
+        ],
+        "alerts": [],
+        "uuid": "9afa3126-7d99-40d8-bcb5-73b50671ddbd",
+        "url": "https://erepo.clinicalgenome.org/evrepo/ui/classification/9afa3126-7d99-40d8-bcb5-73b50671ddbd",
+        "classification": "Benign",
+        "published": "2025-05-23",
+        "record_version": "1.0.0",
+        "gene": "BRCA1",
+        "condition": "MONDO:0700268",
+        "caid": "CA003905",
+        "review_panel": "ENIGMA BRCA1 and BRCA2 VCEP",
+        "spec_version": null,
+        "summary_url": "https://erepo.clinicalgenome.org/evrepo/api/summary/classifications?columns=caId&values=CA003905&matchTypes=exact&pgSize=100&pg=1",
+        "summary_sha256": "6c9516d25ff6063f165612a26c831630373b0475dc6cca25ffdc059cc38d39f8",
+        "detail_sha256": "021002bf6f1ae2b48261b1c512e20c1a33bf638fdb07fc0e3637ab538121919c",
+        "detail_url": "https://erepo.clinicalgenome.org/evrepo/api/classification/9afa3126-7d99-40d8-bcb5-73b50671ddbd"
+      }
+    }
+  },
+  {
+    "id": "demo-public-rc8-brca2-37",
+    "utc": null,
+    "report": {
+      "status": "review_required",
+      "engine": "0.2.1rc1",
+      "gene": "BRCA2",
+      "caid": "CA10579818",
+      "condition": "MONDO:0700269",
+      "inheritance": "AD",
+      "domain": "germline cancer predisposition",
+      "specification": "GN097 v1.2",
+      "rules_bundle_sha256": "37140e4b0ab320a88ee91023d5b27eb38958733e75a8c403c65316cf7ce683ab",
+      "generated_utc": null,
+      "met": [],
+      "not_met": [],
+      "points_accepted": null,
+      "classification_draft": null,
+      "not_evaluated": [
+        "PP4",
+        "BS1",
+        "PVS1",
+        "PS1",
+        "BP5",
+        "PP3",
+        "BA1",
+        "BP1",
+        "PS4",
+        "PP1",
+        "BP7",
+        "PM3",
+        "PS3",
+        "BS3",
+        "BP4",
+        "BS2",
+        "BS4",
+        "PM5",
+        "PM2"
+      ],
+      "not_applicable_by_spec": [
+        "BP3",
+        "PM6",
+        "PM1",
+        "PM4",
+        "PS2",
+        "PP5",
+        "PP2",
+        "BP2",
+        "BP6"
+      ],
+      "representations": {
+        "GRCh37": [
+          "NC_000013.10:g.32954243G>T"
+        ],
+        "GRCh38": [
+          "NC_000013.11:g.32380106G>T"
+        ]
+      },
+      "schema": "brca.teaching.extract.v1",
+      "is_training": true,
+      "review_desk_version": "0.2.0rc2",
+      "selected_gene": "BRCA2",
+      "input": {
+        "original": "chr13-32954243-G-T",
+        "assembly": "GRCh37",
+        "kind": "vcf",
+        "chrom": "13",
+        "pos": 32954243,
+        "ref": "G",
+        "alt": "T",
+        "hgvs": "NC_000013.10:g.32954243G>T",
+        "interbase": [
+          32954242,
+          32954243,
+          "G",
+          "T"
+        ]
+      },
+      "facts": {
+        "transcript": {
+          "gene_symbol": "BRCA2",
+          "transcript_id": "NM_000059.4",
+          "hgvsc": "NM_000059.4:c.9217G>T",
+          "hgvsp": "NP_000050.3:p.Asp3073Tyr",
+          "exon": "24/27",
+          "consequence_terms": [
+            "missense_variant"
+          ],
+          "protein_start": 3073
+        },
+        "event": "SNV",
+        "ldh_brca": {
+          "linked_allele": "NC_000013.11:g.32380106G>T",
+          "version_source": {
+            "releaseDate": "2026-01-05T00:00:00",
+            "releaseId": 75,
+            "releaseIri": "https://brcaexchange.org/backend/data/releases/?release_id=75",
+            "releaseName": 69
+          },
+          "BayesDel_nsfp33a_noAF": "0.34"
+        }
+      },
+      "source_status": {
+        "ldh_exome": "no_link_listed"
+      },
+      "expert_assertions": [],
+      "limitations": [
+        "公开教学摘录：没有内嵌完整病例或外站响应；旧版示例另存。"
+      ],
+      "candidates": [
+        {
+          "code": "PS3",
+          "strength": "Strong",
+          "score_counted": false,
+          "source": {
+            "gene": "BRCA2",
+            "table": "T9",
+            "sheet": "Table9_BRCA12VCEP_specs",
+            "row": 4682,
+            "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8",
+            "hgvsc": "c.9217G>T",
+            "hgvsp": "p.(Asp3073Tyr)",
+            "code": "PS3",
+            "strength": "Strong",
+            "pmids_mentioned": [
+              "33609447"
+            ],
+            "review_cells": "F4682:N4682",
+            "review_values": {
+              "H": "0.06"
+            },
+            "checked_assignment": {
+              "gene": "BRCA2",
+              "hgvsc": "c.9217G>T",
+              "code": "PS3",
+              "strength": "Strong",
+              "cells": "D4682:E4682",
+              "workbook_sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+            }
+          }
+        }
+      ],
+      "erepo": {
+        "state": "matched",
+        "criteria": [
+          {
+            "code": "PM2",
+            "state": "Met",
+            "strength": "Supporting",
+            "raw_code": "PM2_Supporting",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：专家引用 gnomAD v4.1：未见，超过 90% 的样本测序深度 ≥25×。与冻结条文列出的双非癌队列和区域平均深度不可直接等同。",
+                "pointer": "/evidenceLine/2/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/2/evidenceItem/0",
+            "summary_field": "metCodes/0",
+            "pmids": [],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Supporting",
+            "strength_origin": "summary_suffix"
+          },
+          {
+            "code": "PS3",
+            "state": "Met",
+            "strength": "Strong",
+            "raw_code": "PS3",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：专家纳入 PMID 38417439、39779857；更新后的表不再列此位点，因此排除 PMID 39779848。",
+                "pointer": "/evidenceLine/3/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/3/evidenceItem/0",
+            "summary_field": "metCodes/1",
+            "pmids": [
+              "38417439",
+              "39779857"
+            ],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Strong",
+            "strength_origin": "criterion_default"
+          },
+          {
+            "code": "PP3",
+            "state": "Met",
+            "strength": "Supporting",
+            "raw_code": "PP3",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：域内错义；BayesDel noAF 0.34，SpliceAI 0.06。",
+                "pointer": "/evidenceLine/0/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/0/evidenceItem/0",
+            "summary_field": "metCodes/2",
+            "pmids": [],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Supporting",
+            "strength_origin": "criterion_default"
+          },
+          {
+            "code": "PP4",
+            "state": "Met",
+            "strength": "Supporting",
+            "raw_code": "PP4",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：家族史 LR 与综合 LR 均为 3.57；PMID 31853058。",
+                "pointer": "/evidenceLine/1/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/1/evidenceItem/0",
+            "summary_field": "metCodes/3",
+            "pmids": [
+              "31853058"
+            ],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Supporting",
+            "strength_origin": "criterion_default"
+          }
+        ],
+        "alerts": [],
+        "uuid": "237f2389-fa0c-4474-9f7a-50a8f9a3542d",
+        "url": "https://erepo.clinicalgenome.org/evrepo/ui/classification/237f2389-fa0c-4474-9f7a-50a8f9a3542d",
+        "classification": "Likely Pathogenic",
+        "published": "2026-11-19",
+        "record_version": "1.0.0",
+        "gene": "BRCA2",
+        "condition": "MONDO:0700269",
+        "caid": "CA10579818",
+        "review_panel": "ENIGMA BRCA1 and BRCA2 VCEP",
+        "spec_version": "1.2",
+        "summary_url": "https://erepo.clinicalgenome.org/evrepo/api/summary/classifications?columns=caId&values=CA10579818&matchTypes=exact&pgSize=100&pg=1",
+        "summary_sha256": "1c645e448b02c0147f52ec0a32e791c16f44dbd058ad2725571c76794b7cc370",
+        "detail_sha256": "1cbf30911262a280a5cc7a394b5c05e713366b46e4da699239a17599ffb34167",
+        "detail_url": "https://erepo.clinicalgenome.org/evrepo/api/classification/237f2389-fa0c-4474-9f7a-50a8f9a3542d"
+      }
+    }
+  },
+  {
+    "id": "demo-public-rc8-brca2-38",
+    "utc": null,
+    "report": {
+      "status": "review_required",
+      "engine": "0.2.1rc1",
+      "gene": "BRCA2",
+      "caid": "CA10579818",
+      "condition": "MONDO:0700269",
+      "inheritance": "AD",
+      "domain": "germline cancer predisposition",
+      "specification": "GN097 v1.2",
+      "rules_bundle_sha256": "37140e4b0ab320a88ee91023d5b27eb38958733e75a8c403c65316cf7ce683ab",
+      "generated_utc": null,
+      "met": [],
+      "not_met": [],
+      "points_accepted": null,
+      "classification_draft": null,
+      "not_evaluated": [
+        "PP4",
+        "BS1",
+        "PVS1",
+        "PS1",
+        "BP5",
+        "PP3",
+        "BA1",
+        "BP1",
+        "PS4",
+        "PP1",
+        "BP7",
+        "PM3",
+        "PS3",
+        "BS3",
+        "BP4",
+        "BS2",
+        "BS4",
+        "PM5",
+        "PM2"
+      ],
+      "not_applicable_by_spec": [
+        "BP3",
+        "PM6",
+        "PM1",
+        "PM4",
+        "PS2",
+        "PP5",
+        "PP2",
+        "BP2",
+        "BP6"
+      ],
+      "representations": {
+        "GRCh37": [
+          "NC_000013.10:g.32954243G>T"
+        ],
+        "GRCh38": [
+          "NC_000013.11:g.32380106G>T"
+        ]
+      },
+      "schema": "brca.teaching.extract.v1",
+      "is_training": true,
+      "review_desk_version": "0.2.0rc2",
+      "selected_gene": "BRCA2",
+      "input": {
+        "original": "chr13-32380106-G-T",
+        "assembly": "GRCh38",
+        "kind": "vcf",
+        "chrom": "13",
+        "pos": 32380106,
+        "ref": "G",
+        "alt": "T",
+        "hgvs": "NC_000013.11:g.32380106G>T",
+        "interbase": [
+          32380105,
+          32380106,
+          "G",
+          "T"
+        ]
+      },
+      "facts": {
+        "transcript": {
+          "gene_symbol": "BRCA2",
+          "transcript_id": "NM_000059.4",
+          "hgvsc": "NM_000059.4:c.9217G>T",
+          "hgvsp": "NP_000050.3:p.Asp3073Tyr",
+          "exon": "24/27",
+          "consequence_terms": [
+            "missense_variant"
+          ],
+          "protein_start": 3073
+        },
+        "event": "SNV",
+        "ldh_brca": {
+          "linked_allele": "NC_000013.11:g.32380106G>T",
+          "version_source": {
+            "releaseDate": "2026-01-05T00:00:00",
+            "releaseId": 75,
+            "releaseIri": "https://brcaexchange.org/backend/data/releases/?release_id=75",
+            "releaseName": 69
+          },
+          "BayesDel_nsfp33a_noAF": "0.34"
+        }
+      },
+      "source_status": {
+        "ldh_exome": "no_link_listed"
+      },
+      "expert_assertions": [],
+      "limitations": [
+        "公开教学摘录：没有内嵌完整病例或外站响应；旧版示例另存。"
+      ],
+      "candidates": [
+        {
+          "code": "PS3",
+          "strength": "Strong",
+          "score_counted": false,
+          "source": {
+            "gene": "BRCA2",
+            "table": "T9",
+            "sheet": "Table9_BRCA12VCEP_specs",
+            "row": 4682,
+            "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8",
+            "hgvsc": "c.9217G>T",
+            "hgvsp": "p.(Asp3073Tyr)",
+            "code": "PS3",
+            "strength": "Strong",
+            "pmids_mentioned": [
+              "33609447"
+            ],
+            "review_cells": "F4682:N4682",
+            "review_values": {
+              "H": "0.06"
+            },
+            "checked_assignment": {
+              "gene": "BRCA2",
+              "hgvsc": "c.9217G>T",
+              "code": "PS3",
+              "strength": "Strong",
+              "cells": "D4682:E4682",
+              "workbook_sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+            }
+          }
+        }
+      ],
+      "erepo": {
+        "state": "matched",
+        "criteria": [
+          {
+            "code": "PM2",
+            "state": "Met",
+            "strength": "Supporting",
+            "raw_code": "PM2_Supporting",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：专家引用 gnomAD v4.1：未见，超过 90% 的样本测序深度 ≥25×。与冻结条文列出的双非癌队列和区域平均深度不可直接等同。",
+                "pointer": "/evidenceLine/3/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/3/evidenceItem/0",
+            "summary_field": "metCodes/0",
+            "pmids": [],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Supporting",
+            "strength_origin": "summary_suffix"
+          },
+          {
+            "code": "PS3",
+            "state": "Met",
+            "strength": "Strong",
+            "raw_code": "PS3",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：专家纳入 PMID 38417439、39779857；更新后的表不再列此位点，因此排除 PMID 39779848。",
+                "pointer": "/evidenceLine/0/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/0/evidenceItem/0",
+            "summary_field": "metCodes/1",
+            "pmids": [
+              "38417439",
+              "39779857"
+            ],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Strong",
+            "strength_origin": "criterion_default"
+          },
+          {
+            "code": "PP3",
+            "state": "Met",
+            "strength": "Supporting",
+            "raw_code": "PP3",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：域内错义；BayesDel noAF 0.34，SpliceAI 0.06。",
+                "pointer": "/evidenceLine/1/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/1/evidenceItem/0",
+            "summary_field": "metCodes/2",
+            "pmids": [],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Supporting",
+            "strength_origin": "criterion_default"
+          },
+          {
+            "code": "PP4",
+            "state": "Met",
+            "strength": "Supporting",
+            "raw_code": "PP4",
+            "origin": "summary_and_detail",
+            "text": [
+              {
+                "value": "教学摘要：家族史 LR 与综合 LR 均为 3.57；PMID 31853058。",
+                "pointer": "/evidenceLine/2/evidenceItem/0/evidenceLine/0/evidenceItem/0/contribution/0/comments"
+              }
+            ],
+            "pointer": "/evidenceLine/2/evidenceItem/0",
+            "summary_field": "metCodes/3",
+            "pmids": [
+              "31853058"
+            ],
+            "issues": [],
+            "detail_state": "Met",
+            "detail_strength": null,
+            "criterion_strength": "Supporting",
+            "strength_origin": "criterion_default"
+          }
+        ],
+        "alerts": [],
+        "uuid": "237f2389-fa0c-4474-9f7a-50a8f9a3542d",
+        "url": "https://erepo.clinicalgenome.org/evrepo/ui/classification/237f2389-fa0c-4474-9f7a-50a8f9a3542d",
+        "classification": "Likely Pathogenic",
+        "published": "2026-11-19",
+        "record_version": "1.0.0",
+        "gene": "BRCA2",
+        "condition": "MONDO:0700269",
+        "caid": "CA10579818",
+        "review_panel": "ENIGMA BRCA1 and BRCA2 VCEP",
+        "spec_version": "1.2",
+        "summary_url": "https://erepo.clinicalgenome.org/evrepo/api/summary/classifications?columns=caId&values=CA10579818&matchTypes=exact&pgSize=100&pg=1",
+        "summary_sha256": "339dc4e1660fc8179425ca8a7c7ce15420430d0d13e65092733c97caff56c73a",
+        "detail_sha256": "5b9197054b85860e56b9c5536344ec824ca6edebad57e6172a72d0ad85f9bb30",
+        "detail_url": "https://erepo.clinicalgenome.org/evrepo/api/classification/237f2389-fa0c-4474-9f7a-50a8f9a3542d"
+      }
+    }
+  }
+]

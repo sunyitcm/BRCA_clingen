@@ -1,0 +1,1083 @@
+{
+  "schema": "brca.cspec-zh.v1",
+  "language": "zh-Hans",
+  "translation": "项目据 ENIGMA VCEP 官方英文条目整理的中文释义，非官方译本。所列规范说明适用条件，不代表本位点满足。",
+  "genes": {
+    "BRCA1": {
+      "spec": "GN092 v1.2",
+      "document_sha256": "290c0f25cd367fe68d2b854a77f2ec9b5bc0a190da907adf995b4f3a51415534",
+      "document_url": "https://zenodo.org/records/21434315/files/GN092_1.2.0.json?download=1",
+      "publication_url": "https://cspec.genome.network/cspec/ui/svi/doc/GN092?version=1.2",
+      "criteria": {
+        "PS1": {
+          "rule_key": "092_PS1_nuclear_BRCA1",
+          "zh": "与已按本 VCEP 规范分类的参照变异比对。蛋白分支要求相同氨基酸替换，并核实机制不是剪接；剪接分支须预测到同一具体事件，且待评变异的预测至少同样强。外显子变异还要考虑两种替换各自的蛋白效应。见表 5、附录 E、J、K。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/originalACMGSummary",
+            "text_sha256": "23b1844082c24c345576f0e9b9a43037e87fbebaeeeae8a61667b189433d2e3e"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/instructionsToUse",
+            "text_sha256": "765cc6945e49f9f8a89d132908843f9d21b9044465937f521ca090ff8c918e0c"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "蛋白分支的对照为致病（P），无已证实剪接效应且 SpliceAI ≤0.1；剪接分支依表 5 核对位置及已致病对照。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/2/text",
+              "text_sha256": "cfe567930f9c7614eb6d01c2416abab756e0b952b50cde2a1e10527a547cc54b",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "蛋白分支的对照为可能致病（LP），无已证实剪接效应且 SpliceAI ≤0.1；剪接分支依表 5 核对 P/LP 对照及相对位置。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/3/text",
+              "text_sha256": "84cfb8d214d6db0533d48dcf1d74a8704b6dbdd2691f9d4ce6d6043d2cd2080b",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "用于与 P/LP 对照具有相同预测剪接事件且符合表 5 相对位置条件的外显子或内含子变异。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/4/text",
+              "text_sha256": "fd2644937687f8d114fa16cf2cd20ee74417727de69b89635b4b6055feceff7d",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PM3": {
+          "rule_key": "092_PM3_nuclear_BRCA1",
+          "zh": "与本基因 P/LP 变异共现，受检者表型符合 BRCA 相关范可尼贫血；相位及逐先证者赋分按表 6。染色体断裂试验升高还需至少一项相关临床表现；断裂试验未知须在三类（体征、病理或实验室指标、≤5 岁癌症）中至少两类各有表现。相伴 P/LP 须按本规范判定，待评变异应罕见；相关亲属仅计最严重者。参附录 H。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/1/entContent/originalACMGSummary",
+            "text_sha256": "a1788b0763dd59a166572f880dee716a11afdd26fec05223eb90e3e8aff84def"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/1/entContent/instructionsToUse",
+            "text_sha256": "fccd5e6d3d9f1b0405c38b579421e853f61f877315f28d66724f7795fe878dfe"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "表 6 的先证者证据分合计 ≥4。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/1/entContent/strengthDescriptor/2/text",
+              "text_sha256": "88d23577a057508f5f768d8c7fe4ee8796c9724ddf6558df831b6b2d262f3ad6",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "表 6 原文列 2 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/1/entContent/strengthDescriptor/3/text",
+              "text_sha256": "310a6202385dd77d8677b441ace6eff047f3cd7ce67324d05908f2fd14f981f1",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "表 6 原文列 1 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/1/entContent/strengthDescriptor/4/text",
+              "text_sha256": "6697744f20e006b2f01f8e020587d520ef8ed12256a0008b82b07172b1e442aa",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BS3": {
+          "rule_key": "092_BS3_nuclear_BRCA1",
+          "zh": "经校准的功能实验无蛋白损害，只测蛋白或联合测 mRNA 与蛋白。只测转录本且剪接正常走 BP7（RNA）。如对照充分的实验有无法用设计解释的冲突，则不用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/originalACMGSummary",
+            "text_sha256": "6bc33b40dfdde1930be7bbabffd52c9c790d4ec12455d429cda3a403cf31f359"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/instructionsToUse",
+            "text_sha256": "912addd00a61df7cd33d44e6f1d823ac4fd0136a41feacfcfe88ac0ef7936803"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "依据表 9 或图 1C、附录 E 核实实验确能反映相关蛋白功能及该位点的赋码。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/strengthDescriptor/2/text",
+              "text_sha256": "cdc6e26b890fcbdf1d4a00b2bb136a703d854f7aa7b37cdfc2bfb02a202f32aa",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PP4": {
+          "rule_key": "092_PP4_nuclear_BRCA1",
+          "zh": "仅使用经临床校准的多因素综合似然比。应能复核输入类别、数据来源和权重，可含共分离、共现、家族史、肿瘤病理或病例对照；不得重复使用同一资料。仅有乳腺癌表型不成立。见表 7、附录 B。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/originalACMGSummary",
+            "text_sha256": "323fc8c31c25128e749721d85b764ac8bcdd78112b4416ec615fb67564c79169"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/instructionsToUse",
+            "text_sha256": "a29a21012bc9f1aeea4e781bbdfe55644231534e955406ec20edd2f336c90612"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≥18.7。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/2/text",
+              "text_sha256": "4ad0337284036b252842822c7266c03363e9003be269df2e25a716be72081709",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≥4.3。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/3/text",
+              "text_sha256": "21dbf0ab7b8e99c9b86e804bf82a617b56542d539a7530022ad8cc35b790d2b2",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≥2.08。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/4/text",
+              "text_sha256": "086bf0146654e51326b3ad5436d2ce76415c1dd32939d1482e6720a9ddfa93ff",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≥350。此最高档在 Strong 的正文中给出。只用经临床校准的综合 LR；核数据类型、组成、权重与同一队列是否重复。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/2/text",
+              "text_sha256": "4ad0337284036b252842822c7266c03363e9003be269df2e25a716be72081709",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "BP5": {
+          "rule_key": "092_BP5_nuclear_BRCA1",
+          "zh": "限于经校准的临床资料综合 LR，方向反对致病。应复核数据类型、来源和权重；两个不同乳腺/卵巢癌易感基因里的致病变异共现，本身不适用。见表 7、附录 B。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/originalACMGSummary",
+            "text_sha256": "3334dc9f75761d62f48e842c8cd0ff2864f4cf14623db890c159c34f116f13fe"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/instructionsToUse",
+            "text_sha256": "a29a21012bc9f1aeea4e781bbdfe55644231534e955406ec20edd2f336c90612"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≤0.05。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/2/text",
+              "text_sha256": "7b8b2eb58e829bb864a2dbfeb7ef8cca67e2a0e00a24ce4a7c825adc42f8faaf",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≤0.23。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/3/text",
+              "text_sha256": "3fc74ae37eb28c0eda555a3c9eed01cbdcc3cfa6f1295852d764e3dbc548996d",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≤0.48。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/4/text",
+              "text_sha256": "32f29a310139f63e06fbc5667f6093193f443a3b40619bc64852470db0844596",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≤0.00285。此最高档在 Strong 的正文中给出。只用经临床校准的综合 LR；两个不同癌易感基因的致病变异共现本身不可采用。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/2/text",
+              "text_sha256": "7b8b2eb58e829bb864a2dbfeb7ef8cca67e2a0e00a24ce4a7c825adc42f8faaf",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "BS4": {
+          "rule_key": "092_BS4_nuclear_BRCA1",
+          "zh": "采用定量家系分析得到反对致病的共分离 LR。常见肿瘤的表型模拟，或家系中另一致病变异，都可能造成表面上的不共分离；按附录 I 复核。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/originalACMGSummary",
+            "text_sha256": "ee45e4db5ae9e104e108cfc0d254c7d82f417e0688a3ffe609f92396b76667ca"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/instructionsToUse",
+            "text_sha256": "e38e96e428bedc7bd4ddb853a31c47b51e4d044f59c5f283664a13af72fbb270"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≤0.05。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/2/text",
+              "text_sha256": "a8b4ec0a72371876e0735a65a509d328bedd2a200fa42054302f486acda8f574",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≤0.23。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/3/text",
+              "text_sha256": "5f958f6c56c4a811e3d83417846a26f7ffd2ddc5273eea36541f36651ad61b21",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≤0.48。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/4/text",
+              "text_sha256": "2c048a49e498362bfb1bae8c1366519dac1216a6dd6f9fbd6dd8f5758281a97e",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≤0.00285。此最高档在 Strong 的正文中给出。只用定量共分离 LR；核表型模拟及家系中其他致病变异的可能性。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/2/text",
+              "text_sha256": "a8b4ec0a72371876e0735a65a509d328bedd2a200fa42054302f486acda8f574",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "PP1": {
+          "rule_key": "092_PP1_nuclear_BRCA1",
+          "zh": "采用定量家系共分离分析的 LR（附录 I），不能按患病亲属人数直接计分。只有一个家系或多个来自隔离人群的家系，还须排除其他可能病因。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/originalACMGSummary",
+            "text_sha256": "fac1563440a380d0d0e30d24bb60ee13e06314d25de100692a0e2a4117a1e9e5"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/instructionsToUse",
+            "text_sha256": "31f04d1ad5dba618baa91a96306a531528a884c6c21651bcf27344dcd349709b"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≥18.7。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/strengthDescriptor/2/text",
+              "text_sha256": "753ac20276145f2442bfb2c90b91600640c655a3925a9cfc42a3222cd6d55aad",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≥4.3。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/strengthDescriptor/3/text",
+              "text_sha256": "025e1e09ccc49c3f4aef6f41f72e09b5ea2579a37818606c098f7f7008cacb54",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≥2.08。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/strengthDescriptor/4/text",
+              "text_sha256": "5cf2ff3d078cb842846973eacbe1744e8b92081dd2393870288ff029d455d9f9",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≥350。此最高档在 Strong 的正文中给出。定量共分离 LR；该档还须有蛋白或剪接影响预测或实验依据；单一家系或隔离人群另核替代病因。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/strengthDescriptor/2/text",
+              "text_sha256": "753ac20276145f2442bfb2c90b91600640c655a3925a9cfc42a3222cd6d55aad",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "BS1": {
+          "rule_key": "092_BS1_nuclear_BRCA1",
+          "zh": "在指定的 gnomAD v2.1 非癌外显子和/或 v3.1 非癌非奠基者人群中取最大 FAF；外显子与基因组分开。深度 <20× 或已知致病奠基者变异不用。见附录 G。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/9/entContent/originalACMGSummary",
+            "text_sha256": "a271210a640b1c368381d2f3ce87fa59570a52f7263455c2fa3d49c96eac693b"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/9/entContent/instructionsToUse",
+            "text_sha256": "9c8ed54904dcd176f299eb3bdbfcc51caa0943c9da96fe15713af08152d36ef5"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "FAF >0.0001（0.01%）。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/9/entContent/strengthDescriptor/2/text",
+              "text_sha256": "f0e33eaa0e573cf74769661192dbe45f5fe85aac16b77f35112f54a8334e6c8f",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "0.00002 < FAF ≤0.0001（0.002% 至 0.01%，不含下限）。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/9/entContent/strengthDescriptor/4/text",
+              "text_sha256": "363e93ca2cda305d77280f91a8431c630c26339cf755e8adc7ae0482d7cc76ee",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BP7": {
+          "rule_key": "092_BP7_nuclear_BRCA1",
+          "zh": "区分低剪接先验的预测分支与实际 RNA 实验分支，见图 1A/1B 和附录 E、J。仅有未报道剪接异常并不等于实验显示正常。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/originalACMGSummary",
+            "text_sha256": "681819d5b6ccdc8188759fd703367c30d7308918c4a9ee3d009d267905fc109a"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/instructionsToUse",
+            "text_sha256": "344bec7e47a93d6d5fecdb80de063d8939889717a9a4fadee8ea6ced59a6c0c3"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "BP7（RNA）：可靠的纯 mRNA 实验未见损害，可用于内含子、同义及功能域外错义/框内变异；域内错义必须同时满足 BS3 才可按此 RNA 档使用。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/strengthDescriptor/2/text",
+              "text_sha256": "b7444c09e9fe85b09d16a36a5351f9abfd08c38d076ead49757b1403b27d1101",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "已满足 BP4，且属功能域内同义，或位于保守剪接基序以外的内含子（供体 +7 及更远、受体 −21 及更远）。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/strengthDescriptor/4/text",
+              "text_sha256": "394854f7bd74439c073fe954170b4e775af5f623f058dc5f940926506fe6092b",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BA1": {
+          "rule_key": "092_BA1_nuclear_BRCA1",
+          "zh": "用 gnomAD v2.1 非癌外显子和/或 v3.1 非癌数据；在非奠基者人群取最大过滤等位基因频率（FAF），外显子和基因组分开看。深度 <20× 或已知致病奠基者变异不用。见附录 G。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/11/entContent/originalACMGSummary",
+            "text_sha256": "0d19a009955c628290531653896cb707445e354059605620bf1a259e7f471507"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/11/entContent/instructionsToUse",
+            "text_sha256": "6d447b18f4004a5ba2b6f5ee480799e72cd378dface764ca6c3ff0656720b612"
+          },
+          "grades": {
+            "Stand Alone": {
+              "zh": "FAF >0.001（0.1%）。此为独立良性判据，不折算为普通负分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/11/entContent/strengthDescriptor/0/text",
+              "text_sha256": "0c8071fb07e25ec82e1ec35c3952c26bb3689d5e9f939fc534a9caeb765e220c",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BP1": {
+          "rule_key": "092_BP1_nuclear_BRCA1",
+          "zh": "规范功能域外的同义、错义或框内插入、缺失、delins，且无剪接影响预测；此分支不用错义预测分数。本基因功能域：RING（aa 2–101）、卷曲螺旋（aa 1391–1424）、BRCT 重复（aa 1650–1857）。参图 1A、附录 J。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/originalACMGSummary",
+            "text_sha256": "0457907e02a3755ecd7325dce6443d649a2a7824f5a3a9d7d24f108a61c57ccd"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/instructionsToUse",
+            "text_sha256": "336a781ed617eb63bb5dfd1dbae33752f65de7fcd7f15ea8207f485c961eeaff"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "同时满足域外和 SpliceAI ≤0.1；单有域外位置不够。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/strengthDescriptor/2/text",
+              "text_sha256": "891d78b954fb7922223b2e8eabce9c80b4206a1341cb9d79046339fc40dee7b9",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PS4": {
+          "rule_key": "092_PS4_nuclear_BRCA1",
+          "zh": "病例中变异较对照显著富集；病例与对照应匹配族群及国家。若同一数据集已有病例对照 LR，优先用于 PP4/BP5；不按先证者人数简单计数。见附录 F。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/originalACMGSummary",
+            "text_sha256": "c5bbb5de2e73b017df1d6d79add3df1c56235a47658697497823d337275dbb24"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/instructionsToUse",
+            "text_sha256": "bba6ecc8c39535d23ae4498ec28400923e95853fd813b2f86c61da3204a85ca0"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "病例对照研究：p ≤0.05，OR ≥4，且置信区间下限须高于 2.0。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/strengthDescriptor/2/text",
+              "text_sha256": "9694b965dc5fcf09457c85739ff76ea78fc058322ea8916f187bf129ff304172",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BP4": {
+          "rule_key": "092_BP4_nuclear_BRCA1",
+          "zh": "按图 1A、附录 J 区分蛋白与剪接。规范功能域：RING（aa 2–101）、卷曲螺旋（aa 1391–1424）、BRCT 重复（aa 1650–1857）。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/16/entContent/originalACMGSummary",
+            "text_sha256": "d727f22ed41eb0cb81e89cd7a9f68d8743744c00b219125f06ffd2278587882d"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/16/entContent/instructionsToUse",
+            "text_sha256": "a3be8a49270fc6aa84bca34905db6227d2bbe6e4c6fc290ee03bc32383ddab06"
+          },
+          "grades": {
+            "Supporting": {
+              "zh": "域内错义或框内插入、缺失、delins：BayesDel noAF ≤0.15 且 SpliceAI ≤0.1。域内同义，或非供体/受体 ±1/2 的内含子变异，按相应分支要求 SpliceAI ≤0.1。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/16/entContent/strengthDescriptor/4/text",
+              "text_sha256": "6dc0e5362efcf774470d6c33b3cef1df9ee58fa23bc7e9eeb3ff4ca37df32dec",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PS3": {
+          "rule_key": "092_PS3_nuclear_BRCA1",
+          "zh": "经校准、对照充分的体外或体内实验支持功能受损。此代码用于只测蛋白或同时测 mRNA 与蛋白的实验；只测 RNA 的损害走 PVS1（RNA）。可靠实验结论冲突且不能用设计差异解释时不用。表 9 并未穷尽所有研究。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/19/entContent/originalACMGSummary",
+            "text_sha256": "ae294962bd1c22f848892976a969d200661c9a7342f4bfd02b4e853d67c21a05"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/19/entContent/instructionsToUse",
+            "text_sha256": "36ec127be636c15536dc3dbcc9b07424d7f6940b9c69e4522bebb001cfca1c21"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "按表 9 或图 1C、附录 E 核对实验、方向、变异和已校准的赋码。仅被论文或附件提及不足以计入。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/19/entContent/strengthDescriptor/2/text",
+              "text_sha256": "bb4b5ba724922ce88a2b9b42f3b682bb609a98e34f20790fa1a6db191128e7eb",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PP3": {
+          "rule_key": "092_PP3_nuclear_BRCA1",
+          "zh": "按变异类型、位置和机制评估（图 1A、附录 J）。本基因规范功能域：RING（aa 2–101）、卷曲螺旋（aa 1391–1424）、BRCT 重复（aa 1650–1857）。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/20/entContent/originalACMGSummary",
+            "text_sha256": "25294fbd5f1f8ac0799b1c38dd9c2ec92708620e30d16a4677422a41f375deed"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/20/entContent/instructionsToUse",
+            "text_sha256": "a171534426c28e049ad24d99fc08b7f0c7cf52010cd6cd0a1275842f929a55f8"
+          },
+          "grades": {
+            "Supporting": {
+              "zh": "域内错义或框内插入、缺失、delins 的蛋白分支：BayesDel noAF ≥0.28。剪接分支：同义、错义/框内变异（不论域内外）或非经典 ±1/2 位点的内含子变异，SpliceAI ≥0.2。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/20/entContent/strengthDescriptor/4/text",
+              "text_sha256": "fe311c7a1dc6b1436880f195a415315382f7557028cf86e176f062d78fd18693",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PM5": {
+          "rule_key": "092_PM5_nuclear_BRCA1",
+          "zh": "本规范用 PM5_PTC：仅限基因组变异直接产生的提前终止，而且 PVS1 适用；不是普通的同一残基错义比较，也不用于因剪接产生的终止。判定依据是终止密码子所在外显子，可能不同于变异所在外显子。见表 4、附录 D。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/originalACMGSummary",
+            "text_sha256": "7ab678e2612bceacc636e3b0042bbc751b20a7284aededffb822dce6f925f327"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/instructionsToUse",
+            "text_sha256": "37bf3f6b6364726c88432af3517eafb7aaf9a7a8caf12e6b596770d6fc0dfac2"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "核对终止所在外显子已有其他确定致病的提前终止变异，再取本基因表 4 对应的外显子强度。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/strengthDescriptor/2/text",
+              "text_sha256": "905b8c489ad546254014a95eab7e53cb2e8d8c6c07ad0d1153a2786b39a11219",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "核对终止所在外显子已有其他确定致病的提前终止变异，再取本基因表 4 对应的外显子强度。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/strengthDescriptor/3/text",
+              "text_sha256": "905b8c489ad546254014a95eab7e53cb2e8d8c6c07ad0d1153a2786b39a11219",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "核对终止所在外显子已有其他确定致病的提前终止变异，再取本基因表 4 对应的外显子强度。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/strengthDescriptor/4/text",
+              "text_sha256": "905b8c489ad546254014a95eab7e53cb2e8d8c6c07ad0d1153a2786b39a11219",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PVS1": {
+          "rule_key": "092_PVS1_nuclear_BRCA1",
+          "zh": "如果功能丧失是该基因已知的致病机制，无义、移码、经典剪接供体或受体 ±1/2、起始密码子变异，以及单个或多个外显子缺失，均应按 PVS1 决策树评估。决策树考虑具有临床意义的功能域，决定实际强度；不能仅因变异属于上述类型就指定 Very Strong。见规范表 4 和附录 D。可靠实验若仅测量 mRNA 转录本构成并显示损害，应走 PVS1（RNA）分支：结合实验方法及保留功能转录本的比例，见图 1B、附录 E。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/originalACMGSummary",
+            "text_sha256": "c72c8b6c60705c6986f47c563b8ecfac585b5cb216fd8d081be50cb223b7db00"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/instructionsToUse",
+            "text_sha256": "a0cadb1761e4d84201a98c97db4def395462941e9dffc4498ffff8497bae3d1f"
+          },
+          "grades": {
+            "Very Strong": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/1/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            },
+            "Strong": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/2/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/3/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/4/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BS2": {
+          "rule_key": "092_BS2_nuclear_BRCA1",
+          "zh": "无范可尼贫血等隐性病表现时，按表 8 的共现、个体和相位条件逐例计分；相伴 P/LP 变异须按本 VCEP 规范判定。不能仅因一位成年人没有癌症而使用。见附录 H。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/originalACMGSummary",
+            "text_sha256": "37a5e3af9e74b2228ff514348916b6ab73789dd88a9715fd7ae596af069cc0e3"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/instructionsToUse",
+            "text_sha256": "ab590fa4f94df57d9bb88554df34e88f67ab9a3c8ea2cbddd52da0af14575364"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "表 8 的先证者证据分合计 ≥4。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/2/text",
+              "text_sha256": "6d074f0ceb15cc35ab9506b3992320cdba860431ea29de8e5f437faea261c373",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "表 8 原文列 2 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/3/text",
+              "text_sha256": "2ba883178b424fe1d9d2bc6d6280b9253e75d8ff37ea58bde8a62397d8041710",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "表 8 原文列 1 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/4/text",
+              "text_sha256": "8c417533146716edc7a1089cfe137cf774e81e8a29296027f0c6c1621637315c",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PM2": {
+          "rule_key": "092_PM2_nuclear_BRCA1",
+          "zh": "在 gnomAD v2.1 非癌外显子子集和 v3.1 非癌队列的非近交对照中均未见，位点周围平均测序深度均须 ≥25×。一次观察不提供这条支持；插入、缺失或 delins 不用。见附录 G。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/27/entContent/originalACMGSummary",
+            "text_sha256": "e041dc8a5fa53488aedd642c35bfd2c57c33217a95e2f622e2c4fcb8b033a3cf"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/27/entContent/instructionsToUse",
+            "text_sha256": "dfc88cee9bd665807d139f5f8a3fbbd01a434779a4f63f4958b995d594df8013"
+          },
+          "grades": {
+            "Supporting": {
+              "zh": "核对两套指定队列的缺失与覆盖。某库未列链接、请求失败或只有更新版本的记录，均不能单独证明满足。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/27/entContent/strengthDescriptor/4/text",
+              "text_sha256": "9c659e42c93d99282184b9c21b2e6eed86a750eb882cb2569394663723f8848a",
+              "conditional_in_text": false
+            }
+          }
+        }
+      }
+    },
+    "BRCA2": {
+      "spec": "GN097 v1.2",
+      "document_sha256": "693ffda43eb128b13677bbba9084cc969fab6b09eb6ae05fb2c6867d9dddddea",
+      "document_url": "https://zenodo.org/records/21434343/files/GN097_1.2.0.json?download=1",
+      "publication_url": "https://cspec.genome.network/cspec/ui/svi/doc/GN097?version=1.2",
+      "criteria": {
+        "PP4": {
+          "rule_key": "097_PP4_nuclear_BRCA2",
+          "zh": "仅使用经临床校准的多因素综合似然比。应能复核输入类别、数据来源和权重，可含共分离、共现、家族史、肿瘤病理或病例对照；不得重复使用同一资料。仅有乳腺癌表型不成立。见表 7、附录 B。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/originalACMGSummary",
+            "text_sha256": "323fc8c31c25128e749721d85b764ac8bcdd78112b4416ec615fb67564c79169"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/instructionsToUse",
+            "text_sha256": "a29a21012bc9f1aeea4e781bbdfe55644231534e955406ec20edd2f336c90612"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≥18.7。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/2/text",
+              "text_sha256": "4ad0337284036b252842822c7266c03363e9003be269df2e25a716be72081709",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≥4.3。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/3/text",
+              "text_sha256": "21dbf0ab7b8e99c9b86e804bf82a617b56542d539a7530022ad8cc35b790d2b2",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≥2.08。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/4/text",
+              "text_sha256": "086bf0146654e51326b3ad5436d2ce76415c1dd32939d1482e6720a9ddfa93ff",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≥350。此最高档在 Strong 的正文中给出。只用经临床校准的综合 LR；核数据类型、组成、权重与同一队列是否重复。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/0/entContent/strengthDescriptor/2/text",
+              "text_sha256": "4ad0337284036b252842822c7266c03363e9003be269df2e25a716be72081709",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "BS1": {
+          "rule_key": "097_BS1_nuclear_BRCA2",
+          "zh": "在指定的 gnomAD v2.1 非癌外显子和/或 v3.1 非癌非奠基者人群中取最大 FAF；外显子与基因组分开。深度 <20× 或已知致病奠基者变异不用。见附录 G。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/originalACMGSummary",
+            "text_sha256": "a271210a640b1c368381d2f3ce87fa59570a52f7263455c2fa3d49c96eac693b"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/instructionsToUse",
+            "text_sha256": "9c8ed54904dcd176f299eb3bdbfcc51caa0943c9da96fe15713af08152d36ef5"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "FAF >0.0001（0.01%）。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/strengthDescriptor/2/text",
+              "text_sha256": "f0e33eaa0e573cf74769661192dbe45f5fe85aac16b77f35112f54a8334e6c8f",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "0.00002 < FAF ≤0.0001（0.002% 至 0.01%，不含下限）。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/2/entContent/strengthDescriptor/4/text",
+              "text_sha256": "363e93ca2cda305d77280f91a8431c630c26339cf755e8adc7ae0482d7cc76ee",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PVS1": {
+          "rule_key": "097_PVS1_nuclear_BRCA2",
+          "zh": "如果功能丧失是该基因已知的致病机制，无义、移码、经典剪接供体或受体 ±1/2、起始密码子变异，以及单个或多个外显子缺失，均应按 PVS1 决策树评估。决策树考虑具有临床意义的功能域，决定实际强度；不能仅因变异属于上述类型就指定 Very Strong。见规范表 4 和附录 D。可靠实验若仅测量 mRNA 转录本构成并显示损害，应走 PVS1（RNA）分支：结合实验方法及保留功能转录本的比例，见图 1B、附录 E。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/originalACMGSummary",
+            "text_sha256": "c72c8b6c60705c6986f47c563b8ecfac585b5cb216fd8d081be50cb223b7db00"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/instructionsToUse",
+            "text_sha256": "f161dc31cff95e8646fbd3683ec062b0df8579828dba9793f5b29ab1bd35aecf"
+          },
+          "grades": {
+            "Very Strong": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/1/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            },
+            "Strong": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/2/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/3/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "各档均引用同一机制条文。按该基因表 4 的外显子与变异类型分支确定本档；有实测 RNA 时核图 1B。若为基因组提前终止，可再按终止所在外显子核 PM5_PTC。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/4/entContent/strengthDescriptor/4/text",
+              "text_sha256": "2ca93f4ba3fdf4cccdf4c381d37820be427ed78af9c55b1df0b250c781836931",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PS1": {
+          "rule_key": "097_PS1_nuclear_BRCA2",
+          "zh": "与已按本 VCEP 规范分类的参照变异比对。蛋白分支要求相同氨基酸替换，并核实机制不是剪接；剪接分支须预测到同一具体事件，且待评变异的预测至少同样强。外显子变异还要考虑两种替换各自的蛋白效应。见表 5、附录 E、J、K。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/originalACMGSummary",
+            "text_sha256": "23b1844082c24c345576f0e9b9a43037e87fbebaeeeae8a61667b189433d2e3e"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/instructionsToUse",
+            "text_sha256": "b17d1c1d3d4ee7a8aee7e9a91b8973fdcf577ce5d740b693cf9a84c9bec44f77"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "蛋白分支的对照为致病（P），无已证实剪接效应且 SpliceAI ≤0.1；剪接分支依表 5 核对位置及已致病对照。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/2/text",
+              "text_sha256": "26dcd618258df4e55205720f4ca35bade7b014298e90124382b0bdea7dd3049c",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "蛋白分支的对照为可能致病（LP），无已证实剪接效应且 SpliceAI ≤0.1；剪接分支依表 5 核对 P/LP 对照及相对位置。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/3/text",
+              "text_sha256": "4fffd281ff48ab0ac1aaf20a9e15eaf6d7123c9fd9441e87b6441431dca789ee",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "用于与 P/LP 对照具有相同预测剪接事件且符合表 5 相对位置条件的外显子或内含子变异。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/5/entContent/strengthDescriptor/4/text",
+              "text_sha256": "7921ff6ce53b08c055eeee8611eaab7aa2afd66816ff37452d13c65efa87918e",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BP5": {
+          "rule_key": "097_BP5_nuclear_BRCA2",
+          "zh": "限于经校准的临床资料综合 LR，方向反对致病。应复核数据类型、来源和权重；两个不同乳腺/卵巢癌易感基因里的致病变异共现，本身不适用。见表 7、附录 B。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/originalACMGSummary",
+            "text_sha256": "3334dc9f75761d62f48e842c8cd0ff2864f4cf14623db890c159c34f116f13fe"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/instructionsToUse",
+            "text_sha256": "a9dffc28203b728d784479043fbd592a6b14b8d6823a95645218e34c97c067f5"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≤0.05。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/2/text",
+              "text_sha256": "58e8d74fcc6339f0d04f88f28c91608a4620848993bed792809b5b01770a0784",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≤0.23。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/3/text",
+              "text_sha256": "3fc74ae37eb28c0eda555a3c9eed01cbdcc3cfa6f1295852d764e3dbc548996d",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≤0.48。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/4/text",
+              "text_sha256": "32f29a310139f63e06fbc5667f6093193f443a3b40619bc64852470db0844596",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≤0.00285。此最高档在 Strong 的正文中给出。只用经临床校准的综合 LR；两个不同癌易感基因的致病变异共现本身不可采用。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/6/entContent/strengthDescriptor/2/text",
+              "text_sha256": "58e8d74fcc6339f0d04f88f28c91608a4620848993bed792809b5b01770a0784",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "PP3": {
+          "rule_key": "097_PP3_nuclear_BRCA2",
+          "zh": "按变异类型、位置和机制评估（图 1A、附录 J）。本基因规范功能域：PALB2 结合区（aa 10–40）、DNA 结合区（aa 2481–3186）。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/7/entContent/originalACMGSummary",
+            "text_sha256": "25294fbd5f1f8ac0799b1c38dd9c2ec92708620e30d16a4677422a41f375deed"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/7/entContent/instructionsToUse",
+            "text_sha256": "a171534426c28e049ad24d99fc08b7f0c7cf52010cd6cd0a1275842f929a55f8"
+          },
+          "grades": {
+            "Supporting": {
+              "zh": "域内错义或框内插入、缺失、delins 的蛋白分支：BayesDel noAF ≥0.30。剪接分支：同义、错义/框内变异（不论域内外）或非经典 ±1/2 位点的内含子变异，SpliceAI ≥0.2。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/7/entContent/strengthDescriptor/4/text",
+              "text_sha256": "ba9c6367c9285bd2b12407d74af3ffee4f6d5eb2e8a95c3b6bdd35a350c1da1f",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BA1": {
+          "rule_key": "097_BA1_nuclear_BRCA2",
+          "zh": "用 gnomAD v2.1 非癌外显子和/或 v3.1 非癌数据；在非奠基者人群取最大过滤等位基因频率（FAF），外显子和基因组分开看。深度 <20× 或已知致病奠基者变异不用。见附录 G。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/originalACMGSummary",
+            "text_sha256": "0d19a009955c628290531653896cb707445e354059605620bf1a259e7f471507"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/instructionsToUse",
+            "text_sha256": "6d447b18f4004a5ba2b6f5ee480799e72cd378dface764ca6c3ff0656720b612"
+          },
+          "grades": {
+            "Stand Alone": {
+              "zh": "FAF >0.001（0.1%）。此为独立良性判据，不折算为普通负分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/8/entContent/strengthDescriptor/0/text",
+              "text_sha256": "0c8071fb07e25ec82e1ec35c3952c26bb3689d5e9f939fc534a9caeb765e220c",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BP1": {
+          "rule_key": "097_BP1_nuclear_BRCA2",
+          "zh": "规范功能域外的同义、错义或框内插入、缺失、delins，且无剪接影响预测；此分支不用错义预测分数。本基因功能域：PALB2 结合区（aa 10–40）、DNA 结合区（aa 2481–3186）。参图 1A、附录 J。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/originalACMGSummary",
+            "text_sha256": "0457907e02a3755ecd7325dce6443d649a2a7824f5a3a9d7d24f108a61c57ccd"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/instructionsToUse",
+            "text_sha256": "336a781ed617eb63bb5dfd1dbae33752f65de7fcd7f15ea8207f485c961eeaff"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "同时满足域外和 SpliceAI ≤0.1；单有域外位置不够。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/10/entContent/strengthDescriptor/2/text",
+              "text_sha256": "f4b38f887ecb2bab05466af6488cb4afeebfd1ee33dec7097c2f1f20b65cfd86",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PS4": {
+          "rule_key": "097_PS4_nuclear_BRCA2",
+          "zh": "病例中变异较对照显著富集；病例与对照应匹配族群及国家。若同一数据集已有病例对照 LR，优先用于 PP4/BP5；不按先证者人数简单计数。见附录 F。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/11/entContent/originalACMGSummary",
+            "text_sha256": "c5bbb5de2e73b017df1d6d79add3df1c56235a47658697497823d337275dbb24"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/11/entContent/instructionsToUse",
+            "text_sha256": "bba6ecc8c39535d23ae4498ec28400923e95853fd813b2f86c61da3204a85ca0"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "病例对照研究：p ≤0.05，OR ≥4，且置信区间下限须高于 2.0。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/11/entContent/strengthDescriptor/2/text",
+              "text_sha256": "9694b965dc5fcf09457c85739ff76ea78fc058322ea8916f187bf129ff304172",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PP1": {
+          "rule_key": "097_PP1_nuclear_BRCA2",
+          "zh": "采用定量家系共分离分析的 LR（附录 I），不能按患病亲属人数直接计分。只有一个家系或多个来自隔离人群的家系，还须排除其他可能病因。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/originalACMGSummary",
+            "text_sha256": "fac1563440a380d0d0e30d24bb60ee13e06314d25de100692a0e2a4117a1e9e5"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/instructionsToUse",
+            "text_sha256": "e13f4342de7932d19d909f530f870f8810390a62600c5be7a40cb1e32137b7d2"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≥18.7。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/strengthDescriptor/2/text",
+              "text_sha256": "753ac20276145f2442bfb2c90b91600640c655a3925a9cfc42a3222cd6d55aad",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≥4.3。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/strengthDescriptor/3/text",
+              "text_sha256": "025e1e09ccc49c3f4aef6f41f72e09b5ea2579a37818606c098f7f7008cacb54",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≥2.08。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/strengthDescriptor/4/text",
+              "text_sha256": "5cf2ff3d078cb842846973eacbe1744e8b92081dd2393870288ff029d455d9f9",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≥350。此最高档在 Strong 的正文中给出。定量共分离 LR；该档还须有蛋白或剪接影响预测或实验依据；单一家系或隔离人群另核替代病因。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/13/entContent/strengthDescriptor/2/text",
+              "text_sha256": "753ac20276145f2442bfb2c90b91600640c655a3925a9cfc42a3222cd6d55aad",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "BP7": {
+          "rule_key": "097_BP7_nuclear_BRCA2",
+          "zh": "区分低剪接先验的预测分支与实际 RNA 实验分支，见图 1A/1B 和附录 E、J。仅有未报道剪接异常并不等于实验显示正常。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/originalACMGSummary",
+            "text_sha256": "681819d5b6ccdc8188759fd703367c30d7308918c4a9ee3d009d267905fc109a"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/instructionsToUse",
+            "text_sha256": "344bec7e47a93d6d5fecdb80de063d8939889717a9a4fadee8ea6ced59a6c0c3"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "BP7（RNA）：可靠的纯 mRNA 实验未见损害，可用于内含子、同义及功能域外错义/框内变异；域内错义必须同时满足 BS3 才可按此 RNA 档使用。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/strengthDescriptor/2/text",
+              "text_sha256": "d14b54faff24cd2e07f93d9a334f2e556de97fe12ab5c3740bf0d692655b6e02",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "已满足 BP4，且属功能域内同义，或位于保守剪接基序以外的内含子（供体 +7 及更远、受体 −21 及更远）。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/14/entContent/strengthDescriptor/4/text",
+              "text_sha256": "aca7c87c297473e59759feffa808deb12e36155376513467b02c6228f7c95046",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PM3": {
+          "rule_key": "097_PM3_nuclear_BRCA2",
+          "zh": "与本基因 P/LP 变异共现，受检者表型符合 BRCA 相关范可尼贫血；相位及逐先证者赋分按表 6。染色体断裂试验升高还需至少一项相关临床表现；断裂试验未知须在三类（体征、病理或实验室指标、≤5 岁癌症）中至少两类各有表现。相伴 P/LP 须按本规范判定，待评变异应罕见；相关亲属仅计最严重者。参附录 H。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/15/entContent/originalACMGSummary",
+            "text_sha256": "a1788b0763dd59a166572f880dee716a11afdd26fec05223eb90e3e8aff84def"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/15/entContent/instructionsToUse",
+            "text_sha256": "fccd5e6d3d9f1b0405c38b579421e853f61f877315f28d66724f7795fe878dfe"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "表 6 的先证者证据分合计 ≥4。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/15/entContent/strengthDescriptor/2/text",
+              "text_sha256": "5fcbaf4b8de20846902def61e758e297e644feadbba07a843d967a4372edc13b",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "表 6 原文列 2 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/15/entContent/strengthDescriptor/3/text",
+              "text_sha256": "e7bf6788fd5b7483492ad49b9438c013824c3a660c2012b430f595f5eb10dfb9",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "表 6 原文列 1 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/15/entContent/strengthDescriptor/4/text",
+              "text_sha256": "6697744f20e006b2f01f8e020587d520ef8ed12256a0008b82b07172b1e442aa",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PS3": {
+          "rule_key": "097_PS3_nuclear_BRCA2",
+          "zh": "经校准、对照充分的体外或体内实验支持功能受损。此代码用于只测蛋白或同时测 mRNA 与蛋白的实验；只测 RNA 的损害走 PVS1（RNA）。可靠实验结论冲突且不能用设计差异解释时不用。表 9 并未穷尽所有研究。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/17/entContent/originalACMGSummary",
+            "text_sha256": "ae294962bd1c22f848892976a969d200661c9a7342f4bfd02b4e853d67c21a05"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/17/entContent/instructionsToUse",
+            "text_sha256": "cac89f5d168dfa26a65d6cce2018a3e94f4b7a30d04f11bc8a40aa77c848a514"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "按表 9 或图 1C、附录 E 核对实验、方向、变异和已校准的赋码。仅被论文或附件提及不足以计入。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/17/entContent/strengthDescriptor/2/text",
+              "text_sha256": "bb4b5ba724922ce88a2b9b42f3b682bb609a98e34f20790fa1a6db191128e7eb",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BS3": {
+          "rule_key": "097_BS3_nuclear_BRCA2",
+          "zh": "经校准的功能实验无蛋白损害，只测蛋白或联合测 mRNA 与蛋白。只测转录本且剪接正常走 BP7（RNA）。如对照充分的实验有无法用设计解释的冲突，则不用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/20/entContent/originalACMGSummary",
+            "text_sha256": "6bc33b40dfdde1930be7bbabffd52c9c790d4ec12455d429cda3a403cf31f359"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/20/entContent/instructionsToUse",
+            "text_sha256": "12ef551da31cd6409199d232b9794de009a4985cdd3cbc23960e718dcec2a3ba"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "依据表 9 或图 1C、附录 E 核实实验确能反映相关蛋白功能及该位点的赋码。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/20/entContent/strengthDescriptor/2/text",
+              "text_sha256": "cdc6e26b890fcbdf1d4a00b2bb136a703d854f7aa7b37cdfc2bfb02a202f32aa",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BP4": {
+          "rule_key": "097_BP4_nuclear_BRCA2",
+          "zh": "按图 1A、附录 J 区分蛋白与剪接。规范功能域：PALB2 结合区（aa 10–40）、DNA 结合区（aa 2481–3186）。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/originalACMGSummary",
+            "text_sha256": "d727f22ed41eb0cb81e89cd7a9f68d8743744c00b219125f06ffd2278587882d"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/instructionsToUse",
+            "text_sha256": "a3be8a49270fc6aa84bca34905db6227d2bbe6e4c6fc290ee03bc32383ddab06"
+          },
+          "grades": {
+            "Supporting": {
+              "zh": "域内错义或框内插入、缺失、delins：BayesDel noAF ≤0.18 且 SpliceAI ≤0.1。域内同义，或非供体/受体 ±1/2 的内含子变异，按相应分支要求 SpliceAI ≤0.1。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/22/entContent/strengthDescriptor/4/text",
+              "text_sha256": "ae61d0c3f21c1b64d90b3e74161ddec47b7558b8efebb5eaa9b53ba428821fdf",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BS2": {
+          "rule_key": "097_BS2_nuclear_BRCA2",
+          "zh": "无范可尼贫血等隐性病表现时，按表 8 的共现、个体和相位条件逐例计分；相伴 P/LP 变异须按本 VCEP 规范判定。不能仅因一位成年人没有癌症而使用。见附录 H。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/originalACMGSummary",
+            "text_sha256": "37a5e3af9e74b2228ff514348916b6ab73789dd88a9715fd7ae596af069cc0e3"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/instructionsToUse",
+            "text_sha256": "ab590fa4f94df57d9bb88554df34e88f67ab9a3c8ea2cbddd52da0af14575364"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "表 8 的先证者证据分合计 ≥4。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/2/text",
+              "text_sha256": "6d074f0ceb15cc35ab9506b3992320cdba860431ea29de8e5f437faea261c373",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "表 8 原文列 2 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/3/text",
+              "text_sha256": "2ba883178b424fe1d9d2bc6d6280b9253e75d8ff37ea58bde8a62397d8041710",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "表 8 原文列 1 个先证者证据分。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/24/entContent/strengthDescriptor/4/text",
+              "text_sha256": "8c417533146716edc7a1089cfe137cf774e81e8a29296027f0c6c1621637315c",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "BS4": {
+          "rule_key": "097_BS4_nuclear_BRCA2",
+          "zh": "采用定量家系分析得到反对致病的共分离 LR。常见肿瘤的表型模拟，或家系中另一致病变异，都可能造成表面上的不共分离；按附录 I 复核。 0.48 < LR < 2.08 时两个方向均不采用。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/originalACMGSummary",
+            "text_sha256": "ee45e4db5ae9e104e108cfc0d254c7d82f417e0688a3ffe609f92396b76667ca"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/instructionsToUse",
+            "text_sha256": "df261cb76ed581b113167bd345424b06d76ebf8cd5200c1b6facec01950065db"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "该类 LR ≤0.05。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/2/text",
+              "text_sha256": "a8b4ec0a72371876e0735a65a509d328bedd2a200fa42054302f486acda8f574",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "该类 LR ≤0.23。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/3/text",
+              "text_sha256": "5f958f6c56c4a811e3d83417846a26f7ffd2ddc5273eea36541f36651ad61b21",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "该类 LR ≤0.48。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/4/text",
+              "text_sha256": "2c048a49e498362bfb1bae8c1366519dac1216a6dd6f9fbd6dd8f5758281a97e",
+              "conditional_in_text": false
+            },
+            "Very Strong": {
+              "zh": "该类 LR ≤0.00285。此最高档在 Strong 的正文中给出。只用定量共分离 LR；核表型模拟及家系中其他致病变异的可能性。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/25/entContent/strengthDescriptor/2/text",
+              "text_sha256": "a8b4ec0a72371876e0735a65a509d328bedd2a200fa42054302f486acda8f574",
+              "conditional_in_text": true
+            }
+          }
+        },
+        "PM5": {
+          "rule_key": "097_PM5_nuclear_BRCA2",
+          "zh": "本规范用 PM5_PTC：仅限基因组变异直接产生的提前终止，而且 PVS1 适用；不是普通的同一残基错义比较，也不用于因剪接产生的终止。判定依据是终止密码子所在外显子，可能不同于变异所在外显子。见表 4、附录 D。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/26/entContent/originalACMGSummary",
+            "text_sha256": "7ab678e2612bceacc636e3b0042bbc751b20a7284aededffb822dce6f925f327"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/26/entContent/instructionsToUse",
+            "text_sha256": "37bf3f6b6364726c88432af3517eafb7aaf9a7a8caf12e6b596770d6fc0dfac2"
+          },
+          "grades": {
+            "Strong": {
+              "zh": "核对终止所在外显子已有其他确定致病的提前终止变异，再取本基因表 4 对应的外显子强度。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/26/entContent/strengthDescriptor/2/text",
+              "text_sha256": "905b8c489ad546254014a95eab7e53cb2e8d8c6c07ad0d1153a2786b39a11219",
+              "conditional_in_text": false
+            },
+            "Moderate": {
+              "zh": "核对终止所在外显子已有其他确定致病的提前终止变异，再取本基因表 4 对应的外显子强度。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/26/entContent/strengthDescriptor/3/text",
+              "text_sha256": "905b8c489ad546254014a95eab7e53cb2e8d8c6c07ad0d1153a2786b39a11219",
+              "conditional_in_text": false
+            },
+            "Supporting": {
+              "zh": "核对终止所在外显子已有其他确定致病的提前终止变异，再取本基因表 4 对应的外显子强度。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/26/entContent/strengthDescriptor/4/text",
+              "text_sha256": "905b8c489ad546254014a95eab7e53cb2e8d8c6c07ad0d1153a2786b39a11219",
+              "conditional_in_text": false
+            }
+          }
+        },
+        "PM2": {
+          "rule_key": "097_PM2_nuclear_BRCA2",
+          "zh": "在 gnomAD v2.1 非癌外显子子集和 v3.1 非癌队列的非近交对照中均未见，位点周围平均测序深度均须 ≥25×。一次观察不提供这条支持；插入、缺失或 delins 不用。见附录 G。",
+          "generic_acmg": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/27/entContent/originalACMGSummary",
+            "text_sha256": "e041dc8a5fa53488aedd642c35bfd2c57c33217a95e2f622e2c4fcb8b033a3cf"
+          },
+          "instructions": {
+            "pointer": "/ld/RuleSet/0/ld/CriteriaCode/27/entContent/instructionsToUse",
+            "text_sha256": "dfc88cee9bd665807d139f5f8a3fbbd01a434779a4f63f4958b995d594df8013"
+          },
+          "grades": {
+            "Supporting": {
+              "zh": "核对两套指定队列的缺失与覆盖。某库未列链接、请求失败或只有更新版本的记录，均不能单独证明满足。",
+              "pointer": "/ld/RuleSet/0/ld/CriteriaCode/27/entContent/strengthDescriptor/4/text",
+              "text_sha256": "9c659e42c93d99282184b9c21b2e6eed86a750eb882cb2569394663723f8848a",
+              "conditional_in_text": false
+            }
+          }
+        }
+      }
+    }
+  }
+}

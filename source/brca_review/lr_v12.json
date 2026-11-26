@@ -1,0 +1,12 @@
+{
+  "id":"ENIGMA-BRCA-LR-v1.2-desk1",
+  "sources":{"BRCA1":"https://cspec.genome.network/cspec/ui/svi/doc/GN092?version=1.2","BRCA2":"https://cspec.genome.network/cspec/ui/svi/doc/GN097?version=1.2"},
+  "profiles":["GN092 v1.2","GN097 v1.2"],
+  "directional_thresholds":{"for":{"Very Strong":"350","Strong":"18.7","Moderate":"4.3","Supporting":"2.08"},"against":{"Very Strong":"0.00285","Strong":"0.05","Moderate":"0.23","Supporting":"0.48"}},
+  "criteria":{
+    "PP1":{"lr_type":"segregation","direction":"for","section":"PP1 / Appendix I","condition":"定量共分离 LR；该档还须有蛋白或剪接影响预测或实验依据；单一家系或隔离人群另核替代病因。"},
+    "PP4":{"lr_type":"combined","direction":"for","section":"PP4 / Table 7 / Appendix B","condition":"只用经临床校准的综合 LR；核数据类型、组成、权重与同一队列是否重复。"},
+    "BS4":{"lr_type":"segregation","direction":"against","section":"BS4 / Appendix I","condition":"只用定量共分离 LR；核表型模拟及家系中其他致病变异的可能性。"},
+    "BP5":{"lr_type":"combined","direction":"against","section":"BP5 / Table 7 / Appendix B","condition":"只用经临床校准的综合 LR；两个不同癌易感基因的致病变异共现本身不可采用。"}
+  }
+}

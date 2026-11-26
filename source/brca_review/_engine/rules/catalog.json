@@ -1,0 +1,404 @@
+{
+  "BRCA1": {
+    "PS1": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_PS1_nuclear_BRCA1"
+    },
+    "PM3": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_PM3_nuclear_BRCA1"
+    },
+    "BS3": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "092_BS3_nuclear_BRCA1"
+    },
+    "BP2": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_BP2_nuclear_BRCA1"
+    },
+    "PP4": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_PP4_nuclear_BRCA1"
+    },
+    "BP5": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_BP5_nuclear_BRCA1"
+    },
+    "BS4": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_BS4_nuclear_BRCA1"
+    },
+    "BP6": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_BP6_nuclear_BRCA1"
+    },
+    "PP1": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_PP1_nuclear_BRCA1"
+    },
+    "BS1": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Supporting"
+      ],
+      "field": "092_BS1_nuclear_BRCA1"
+    },
+    "BP7": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Supporting"
+      ],
+      "field": "092_BP7_nuclear_BRCA1"
+    },
+    "BA1": {
+      "enabled": true,
+      "strengths": [
+        "Stand Alone"
+      ],
+      "field": "092_BA1_nuclear_BRCA1"
+    },
+    "PP5": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_PP5_nuclear_BRCA1"
+    },
+    "BP1": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "092_BP1_nuclear_BRCA1"
+    },
+    "PS4": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "092_PS4_nuclear_BRCA1"
+    },
+    "PM4": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_PM4_nuclear_BRCA1"
+    },
+    "BP4": {
+      "enabled": true,
+      "strengths": [
+        "Supporting"
+      ],
+      "field": "092_BP4_nuclear_BRCA1"
+    },
+    "PS2": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_PS2_nuclear_BRCA1"
+    },
+    "BP3": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_BP3_nuclear_BRCA1"
+    },
+    "PS3": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "092_PS3_nuclear_BRCA1"
+    },
+    "PP3": {
+      "enabled": true,
+      "strengths": [
+        "Supporting"
+      ],
+      "field": "092_PP3_nuclear_BRCA1"
+    },
+    "PM1": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_PM1_nuclear_BRCA1"
+    },
+    "PM5": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_PM5_nuclear_BRCA1"
+    },
+    "PM6": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_PM6_nuclear_BRCA1"
+    },
+    "PVS1": {
+      "enabled": true,
+      "strengths": [
+        "Very Strong",
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_PVS1_nuclear_BRCA1"
+    },
+    "BS2": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "092_BS2_nuclear_BRCA1"
+    },
+    "PP2": {
+      "enabled": false,
+      "strengths": [],
+      "field": "092_PP2_nuclear_BRCA1"
+    },
+    "PM2": {
+      "enabled": true,
+      "strengths": [
+        "Supporting"
+      ],
+      "field": "092_PM2_nuclear_BRCA1"
+    }
+  },
+  "BRCA2": {
+    "PP4": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_PP4_nuclear_BRCA2"
+    },
+    "BP3": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_BP3_nuclear_BRCA2"
+    },
+    "BS1": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Supporting"
+      ],
+      "field": "097_BS1_nuclear_BRCA2"
+    },
+    "PM6": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_PM6_nuclear_BRCA2"
+    },
+    "PVS1": {
+      "enabled": true,
+      "strengths": [
+        "Very Strong",
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_PVS1_nuclear_BRCA2"
+    },
+    "PS1": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_PS1_nuclear_BRCA2"
+    },
+    "BP5": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_BP5_nuclear_BRCA2"
+    },
+    "PP3": {
+      "enabled": true,
+      "strengths": [
+        "Supporting"
+      ],
+      "field": "097_PP3_nuclear_BRCA2"
+    },
+    "BA1": {
+      "enabled": true,
+      "strengths": [
+        "Stand Alone"
+      ],
+      "field": "097_BA1_nuclear_BRCA2"
+    },
+    "PM1": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_PM1_nuclear_BRCA2"
+    },
+    "BP1": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "097_BP1_nuclear_BRCA2"
+    },
+    "PS4": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "097_PS4_nuclear_BRCA2"
+    },
+    "PM4": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_PM4_nuclear_BRCA2"
+    },
+    "PP1": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_PP1_nuclear_BRCA2"
+    },
+    "BP7": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Supporting"
+      ],
+      "field": "097_BP7_nuclear_BRCA2"
+    },
+    "PM3": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_PM3_nuclear_BRCA2"
+    },
+    "PS2": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_PS2_nuclear_BRCA2"
+    },
+    "PS3": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "097_PS3_nuclear_BRCA2"
+    },
+    "PP5": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_PP5_nuclear_BRCA2"
+    },
+    "PP2": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_PP2_nuclear_BRCA2"
+    },
+    "BS3": {
+      "enabled": true,
+      "strengths": [
+        "Strong"
+      ],
+      "field": "097_BS3_nuclear_BRCA2"
+    },
+    "BP2": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_BP2_nuclear_BRCA2"
+    },
+    "BP4": {
+      "enabled": true,
+      "strengths": [
+        "Supporting"
+      ],
+      "field": "097_BP4_nuclear_BRCA2"
+    },
+    "BP6": {
+      "enabled": false,
+      "strengths": [],
+      "field": "097_BP6_nuclear_BRCA2"
+    },
+    "BS2": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_BS2_nuclear_BRCA2"
+    },
+    "BS4": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_BS4_nuclear_BRCA2"
+    },
+    "PM5": {
+      "enabled": true,
+      "strengths": [
+        "Strong",
+        "Moderate",
+        "Supporting"
+      ],
+      "field": "097_PM5_nuclear_BRCA2"
+    },
+    "PM2": {
+      "enabled": true,
+      "strengths": [
+        "Supporting"
+      ],
+      "field": "097_PM2_nuclear_BRCA2"
+    }
+  }
+}

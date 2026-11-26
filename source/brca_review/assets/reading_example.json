@@ -1,0 +1,110 @@
+{
+  "caid": "CA001182",
+  "gene": "BRCA1",
+  "hgvsc": "NM_007294.4:c.181T>G",
+  "record": {
+    "pmid": "30040829",
+    "state": "teaching_locators",
+    "origins": [
+      {
+        "origin": "teaching",
+        "role": "公开教学定位，仅演示阅读顺序；不纳入判读。"
+      }
+    ],
+    "source_utc": null,
+    "article": {
+      "pmid": "30040829",
+      "pmcid": "PMC6057642",
+      "doi": "10.1371/journal.pone.0201086",
+      "title": "BRCA1 founder mutations and beyond in the Polish population: A single-institution BRCA1/2 next-generation sequencing study",
+      "first_author": "Kowalik",
+      "xml_sha256": "91925dc6d6fb6fe7a115b4c0865d43678f417d081e03893740ef4fe862270095",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/",
+      "state": "body_or_table_hits",
+      "hits": [
+        {
+          "aliases": [
+            "c.181T>G"
+          ],
+          "section": "Introduction",
+          "type": "p",
+          "xml_id": "sec001",
+          "paragraph_sha256": "4663f2bb73adedd8ed51f51aec7c88f661fea3e0e8872ebbef115349c462c371",
+          "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/#sec001",
+          "gene_context": "same_unit",
+          "body_node_ordinal": 4
+        },
+        {
+          "aliases": [
+            "c.181T>G"
+          ],
+          "section": "Materials and methods",
+          "type": "p",
+          "xml_id": "sec002",
+          "paragraph_sha256": "0e32d9e09efbcaba3009980607b41838ad8fc84329d0c60ffe940eb51cbf2de6",
+          "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/#sec002",
+          "gene_context": "same_unit",
+          "body_node_ordinal": 36
+        },
+        {
+          "aliases": [
+            "c.181T>G",
+            "Cys61Gly",
+            "C61G"
+          ],
+          "section": "Results",
+          "type": "tr",
+          "unit_label": "Table 1",
+          "xml_id": "pone.0201086.t001",
+          "paragraph_sha256": "f5cbd953eeb193666a148721179d3a621fb32ba36a848712685c618571e95109",
+          "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/#pone.0201086.t001",
+          "gene_context": "other_body_unit",
+          "body_node_ordinal": 180
+        },
+        {
+          "aliases": [
+            "c.181T>G",
+            "C61G"
+          ],
+          "section": "Results",
+          "type": "p",
+          "xml_id": "sec006",
+          "paragraph_sha256": "37a3352197f32b3574408c0a28dcffbd9ec7284c8272baf4be503515332e41fd",
+          "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/#sec006",
+          "gene_context": "other_body_unit",
+          "body_node_ordinal": 229
+        },
+        {
+          "aliases": [
+            "C61G"
+          ],
+          "section": "Results",
+          "type": "p",
+          "xml_id": "sec006",
+          "paragraph_sha256": "972204d08188e1a767121208c4e13117daf7a565ccb1616e9d13a2b42fb34463",
+          "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/#sec006",
+          "gene_context": "same_unit",
+          "body_node_ordinal": 362
+        },
+        {
+          "aliases": [
+            "c.181T>G",
+            "C61G"
+          ],
+          "section": "Discussion",
+          "type": "p",
+          "xml_id": "sec007",
+          "paragraph_sha256": "7a85277ff6353a7f21bc3e1397281ca4a47fbbb0b8403177ba16036175469b01",
+          "review_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/#sec007",
+          "gene_context": "other_body_unit",
+          "body_node_ordinal": 404
+        }
+      ]
+    },
+    "links": {
+      "PubMed": "https://pubmed.ncbi.nlm.nih.gov/30040829/",
+      "PMC 全文": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6057642/",
+      "期刊 / DOI": "https://doi.org/10.1371/journal.pone.0201086"
+    }
+  }
+}

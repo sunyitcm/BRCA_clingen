@@ -1,0 +1,74 @@
+[
+  {
+    "gene": "BRCA1",
+    "name": "Appendices_V1.2_2024-11-18.docx",
+    "url": "https://cspec.genome.network/cspec/File/id/9e6119dc-90b9-42b5-a3b7-1a2eb28b1b12/data",
+    "sha256": "9a9cc9210178e8d947597089ba8edd5ff0633ff7e4fea268b8f202d46e6c8ebb"
+  },
+  {
+    "gene": "BRCA1",
+    "name": "Specifications_Table4_V1.2_2024-11-18.xlsx",
+    "url": "https://cspec.genome.network/cspec/File/id/ca5cf57b-94df-4ad6-a001-c62ceccb3845/data",
+    "sha256": "85af4043ebf9f8965a5879dbe11674c6e62e3aef7f1b8773b07620ee02f03fd9"
+  },
+  {
+    "gene": "BRCA1",
+    "name": "Specifications_V1.2_2024-11-18.docx",
+    "url": "https://cspec.genome.network/cspec/File/id/11e62fec-23b0-4a3e-b2df-751855301746/data",
+    "sha256": "ff0761c3e052ed916668676d9e92650999804e64d6186ac9cc28488764d327b4"
+  },
+  {
+    "gene": "BRCA1",
+    "name": "SupplementaryTables_V1.2_2024-11-18.xlsx",
+    "url": "https://cspec.genome.network/cspec/File/id/cb4a09fe-30f4-4aa8-9d76-d7ea407c9754/data",
+    "sha256": "2cca22c0c0ef4fb17e95ed1c43b4b5b31f12f1659a6516a53e1b4249b3f69957"
+  },
+  {
+    "gene": "BRCA1",
+    "name": "Specifications_Table9_V1.2_2024-11-18.xlsx",
+    "url": "https://cspec.genome.network/cspec/File/id/0a35d6a8-5050-44b6-8a9d-babe8cdc06b2/data",
+    "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+  },
+  {
+    "gene": "BRCA2",
+    "name": "SupplementaryTables_V1.2_2024-11-18.xlsx",
+    "url": "https://cspec.genome.network/cspec/File/id/3dadda2f-94a3-497f-aa35-3bb6e828ddd5/data",
+    "sha256": "2cca22c0c0ef4fb17e95ed1c43b4b5b31f12f1659a6516a53e1b4249b3f69957"
+  },
+  {
+    "gene": "BRCA2",
+    "name": "Specifications_Table4_V1.2_2024-11-18.xlsx",
+    "url": "https://cspec.genome.network/cspec/File/id/10301df8-45e0-4309-adba-c121eb057d3e/data",
+    "sha256": "85af4043ebf9f8965a5879dbe11674c6e62e3aef7f1b8773b07620ee02f03fd9"
+  },
+  {
+    "gene": "BRCA2",
+    "name": "Specifications_Table9_V1.2_2024-11-18.xlsx",
+    "url": "https://cspec.genome.network/cspec/File/id/c540f11d-0be2-45d6-a0bf-ae5327a04885/data",
+    "sha256": "b023f69c4d3131d474d90badc08012f130fa9bbdb47a9ece88ea7e3581da6bc8"
+  },
+  {
+    "gene": "BRCA2",
+    "name": "Appendices_V1.2_2024-11-18.docx",
+    "url": "https://cspec.genome.network/cspec/File/id/5a75d1a0-1222-46a2-8802-68a4f2251a3a/data",
+    "sha256": "9a9cc9210178e8d947597089ba8edd5ff0633ff7e4fea268b8f202d46e6c8ebb"
+  },
+  {
+    "gene": "BRCA2",
+    "name": "Specifications_V1.2_2024-11-18.docx",
+    "url": "https://cspec.genome.network/cspec/File/id/02537f62-66a3-4e67-8aec-cf44b326534d/data",
+    "sha256": "ff0761c3e052ed916668676d9e92650999804e64d6186ac9cc28488764d327b4"
+  },
+  {
+    "gene": "BRCA1",
+    "name": "GN092_1.2.0.json",
+    "url": "https://zenodo.org/records/21434315/files/GN092_1.2.0.json?download=1",
+    "sha256": "290c0f25cd367fe68d2b854a77f2ec9b5bc0a190da907adf995b4f3a51415534"
+  },
+  {
+    "gene": "BRCA2",
+    "name": "GN097_1.2.0.json",
+    "url": "https://zenodo.org/records/21434343/files/GN097_1.2.0.json?download=1",
+    "sha256": "693ffda43eb128b13677bbba9084cc969fab6b09eb6ae05fb2c6867d9dddddea"
+  }
+]
